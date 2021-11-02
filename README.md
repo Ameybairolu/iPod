@@ -25,3 +25,10 @@ Link: <a href="https://ameybairolu.github.io/iPod/">https://ameybairolu.github.i
   <li>To play a song, first navigate to the song player and then click on the play button.</li>
   <li>To change songs, first make sure the only active screen is the song player. Then click on the left button or the right button</li>
 </ol>
+
+<h2>Screenshots</h2>
+<hr>
+<img src="https://github.com/Ameybairolu/iPod/blob/master/screenshots/Screenshot%20(21).png"></img>
+<img src="https://github.com/Ameybairolu/iPod/blob/master/screenshots/Screenshot%20(22).png"></img>
+<img src="https://github.com/Ameybairolu/iPod/blob/master/screenshots/Screenshot%20(23).png"></img>
+<img src="https://github.com/Ameybairolu/iPod/blob/master/screenshots/Screenshot%20(20).png"></img>
