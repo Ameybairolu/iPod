@@ -1,17 +1,10 @@
-/*
-Design Credits : https://dribbble.com/shots/6437042-Music-App-UI
-Also I couldn't find any open music API
-so credits to 
-https://codepen.io/JavaScriptJunkie/details/qBWrRyg
-to make his repo public and make the songs easily accesible
-also I used his UI as inspiration too
-*/
-
 import React, { useContext } from "react";
 import classes from './style.module.css';
 import ReactDOM from 'react-dom';
 
 import DisplayContext from "../../Store/display-context";
+
+// contains all the links to the songs used in the project
 
 const tracks = [
     {
@@ -86,9 +79,15 @@ const tracks = [
         url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
         favorited: false
     }]
+
+
+
+// Declare player
 const player = new Audio(tracks[0].source);
 player.setAttribute('preload', 'metadata');
 
+
+// Component to display controls
 function Control(props) {
 
     return (
@@ -113,6 +112,8 @@ const userOptions = React.createContext({
     shuffle: false,
     repeat: true,
 })
+
+// component to display progress of song being played
 
 function Progress(props) {
 
@@ -163,6 +164,9 @@ function Progress(props) {
     );
 }
 
+
+// component to display album cover, singer and song name on the  screen
+
 function Avatar(props) {
     return (
         <>
@@ -174,6 +178,8 @@ function Avatar(props) {
     );
 }
 
+
+// Wrapping all the above defined components in a single container
 function Container() {
     const displayCtx = useContext(DisplayContext);
     let [playState, setPlayState] = React.useState(false);

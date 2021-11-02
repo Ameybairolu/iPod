@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Roboto+Mono&display=swap");
 
+/* This file contains all the basic CSS styles required for non-reactive-components and also styling for sections that work using document.select */
+
 body {
   background-color: #e6f4f9;
   display: flex;

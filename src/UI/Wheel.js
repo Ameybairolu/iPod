@@ -3,7 +3,7 @@ import classes from './Wheel.module.css';
 function Wheel(props) {
 
     return (
-
+        // Defining the area for zingtouch control. Defining all the buttons
         <div className={`area-for-zing ${classes['buttons-container']}`}>
             <button className={classes['center-circle']} onClick={props.onClickSelect}>
                 <h2>Select</h2>

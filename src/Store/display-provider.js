@@ -2,6 +2,8 @@ import { useReducer } from "react";
 
 import DisplayContext from "./display-context";
 
+// This file provides context for managing states of everything, like if the menu is visible, which screen to display, etc
+
 const defaultDisplayState = {
     currentActiveScreen: ['main', 'main'],
     mainMenuOptionSelected: -1,
