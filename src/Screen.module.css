@@ -1,0 +1,22 @@
+.display {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 20px 0px;
+  width: 300px;
+  background: url("https://imagebee.org/artistic/space_ring_2-wallpapers/space_ring_2-wallpaper-1024x1024.jpg");
+  border: 5px solid black;
+  overflow: hidden;
+  border-radius: inherit;
+  background-size: contain;
+}
+
+.menu-container {
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  height: inherit;
+  background-color: white;
+  z-index: 2;
+}

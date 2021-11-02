@@ -1,0 +1,30 @@
+.displayGames {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.mcicon.com/wp-content/uploads/2020/12/Holidays_Game_1-copy-17.jpg");
+  background-size: contain;
+}
+
+.displaySettings {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.pngall.com/wp-content/uploads/4/Gear-Wheel-PNG-Picture.png");
+  background-size: contain;
+  background-color: white;
+}
+
+.displaySongs {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.gilmanscholarship.org/wp-content/uploads/2020/12/Apple-Music-1.png");
+  background-size: contain;
+  background-color: white;
+}
+
+.displayArtists {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.gilmanscholarship.org/wp-content/uploads/2020/12/Apple-Music-1.png");
+  background-size: contain;
+  background-color: white;
+}

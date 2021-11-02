@@ -1,0 +1,14 @@
+.background {
+  margin: 0;
+  position: fixed;
+  top: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #e3e4e5, #cacaca);
+  width: 320px;
+  height: fit-content;
+  overflow: auto;
+  border-radius: 40px;
+}

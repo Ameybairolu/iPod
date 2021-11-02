@@ -1,0 +1,23 @@
+.divCommonStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+h2 {
+  text-align: center;
+}
+.selected {
+  background-color: blue !important;
+  color: white;
+}
+
+.selected::after {
+  content: "\f0da";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  right: 3px;
+  color: white;
+}
